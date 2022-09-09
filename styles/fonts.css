@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Conv_vagroundcyrillic';
+    src: url('../fonts/vagroundcyrillic.eot');
+    src: local('☺'), url('../fonts/vagroundcyrillic.woff') format('woff'), url('../fonts/vagroundcyrillic.ttf') format('truetype'), url('../fonts/vagroundcyrillic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

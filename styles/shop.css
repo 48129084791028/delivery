@@ -1,0 +1,130 @@
+.catLogo {
+	font-family: 'VAG Round Cyrillic', serif;
+	margin: 10px;
+}
+.catlileft {
+	font-family: 'VAG Round Cyrillic', serif;
+	margin-bottom: 10px;
+}
+.catleft {
+	color: #000;	
+}
+.shop {
+	font-family: 'VAG Round Cyrillic', serif;
+	width: 100%;
+	padding: 20px;
+	display: flex;	
+}
+.imageProd img{
+
+    max-width: 200px;
+	height: auto;
+	max-height: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	
+}
+
+.imageProd {
+	height: 200px;
+}
+.blockShop {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.shopUnit {
+	margin-top: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+	position: relative;
+	float: left;
+    padding: 0px;
+    border: 3px solid rgba(225, 225, 225, 0.7);
+    width: 240px;
+    height: 500px;
+    transition: all .3s;
+}
+
+
+
+.shopCat {
+	min-width: 300px;
+	height: 400px;
+}
+.chatacteristicsShop{
+	font-family: 'VAG Round Cyrillic', serif;
+	font-size: 14px;
+	height: : 130px;
+	
+
+}
+.actionShop a {
+	margin-left: 85px;
+	font-family: 'VAG Round Cyrillic', serif;
+	padding: 6px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 16px;
+	border: 3px solid #de002b;
+	color: #de002b;
+	border-radius:  15px;
+}
+.actionShop {
+	
+	
+	width: 240px;
+	text-align: center;
+	
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+.price {
+	font-family: 'VAG Round Cyrillic', serif;
+	font-size: 18px;
+	position: absolute;
+	padding-left: 5px;
+	width: 100%;
+	bottom: 0;
+}
+.name {
+		height: 50px;
+		padding: 10px;
+}
+
+.country {
+	margin-left: 20px;
+	color: #999999;
+}
+
+.manufacturer{
+	padding-left: 5px;
+
+	color: #999999;
+}
+.weight{
+	padding-left: 5px;
+	
+}
+
+
+@media (max-width: 909px){
+	.shop {
+		display: block;
+	}
+	.blockShop {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: auto;
+		
+
+	}
+	
+	.shopUnit {
+		float: none;
+		margin: auto;
+	}
+}

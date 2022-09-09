@@ -1,0 +1,168 @@
+.mainBlockContentOP  {
+	width: 100%;
+}
+
+.topBlockOP {
+	font-family: 'VAG Round Cyrillic', serif;
+	width: 100%;
+	padding: 40px;
+	line-height: 50px;
+	background-color: #f9f9f9;
+}
+
+#openedProduct-name {
+	font-weight: normal;
+	font-size: 2.133em;
+}
+
+.blockTovar {
+	font-family: 'VAG Round Cyrillic', serif;
+ 	width: 100%;
+ 	display: flex;
+ 	justify-content: center;
+ 	padding-right: 70px;
+ 	padding-left: 70px;
+ 	margin-bottom: 10px;
+}
+.bottomBottomBlock {
+	font-size: 16px;
+	margin-top: 10px;
+	
+}
+.blockTovarChild {
+	width: all;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	border: 2px solid #f2f2f2;
+	padding: 20px;
+	display: flex;
+	flex: 1;
+	max-width: 1024px;
+}
+
+.topBlock {
+	display: inline-flex;
+	flex-flow: wrap;
+	width: auto;
+	min-width: 300px;
+}
+.leftTopBlock {
+	background-color: #fff;
+	border: 1px solid #f2f2f2;
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 400px;
+    height: 400px;
+}
+.rightTopBlock {
+	margin-left: 50px;
+	max-width: 530px;
+	height: 400px;
+	vertical-align: top;
+}
+
+.priceBlock {
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	display: block;
+	height: 130px;
+	flex: 1;
+}
+.priceBlockDiscount{
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	display: block;
+	height: 230px;
+}
+.priceOPWD {
+	text-align: left;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.infoDisc {
+	color: #7d7d7d;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+.infoOPWD {
+	color: #7d7d7d;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 20px;
+}
+.priceRazd {
+	width: 530px;
+	display: inline-flex;
+}
+.discount {
+	width: 90px;
+	height: 90px;
+	border-radius: 90px;
+	background-color: #de002b; 
+	margin-top: 20px;
+	color: #fff;
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	font-size: 26px;
+}
+
+.nowPriceDisc {
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.oldPriceDisc{
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 25px;
+	color: #999999;
+	text-decoration: line-through;
+}
+.raznica {
+	margin-top: 20px;
+	color: #de002b;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.raznica a {
+	font-weight: 900;
+}
+
+.tableCountMan  td{
+	width: 160px;
+	padding: 5px;
+}
+.cuntMan {
+	border-bottom: 1px solid #f2f2f2;
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: auto;
+	justify-content: flex-end;
+}
+.tabCoun, .tabMan {
+	font-size: 16px;
+	font-weight: 600;
+}
+@media (max-width: 1263px) {
+	.priceBlock {
+		margin-top: 20px;
+	}
+	.priceBlockDiscount {
+		margin-top: 20px;
+	}
+	.rightTopBlock {
+		margin-left: 0;
+	}
+	.topBlock {
+		flex-flow: column wrap;
+	}
+}
